@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>ShareScope.Windows</RootNamespace>
+    <AssemblyName>ShareScope.Windows</AssemblyName>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Description>Windows SMB, WMI, NTFS, and Active Directory readers for ShareScope. Read-only.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShareScope.Core\ShareScope.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices" Version="8.0.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="8.0.0" />
+    <PackageReference Include="System.IO.FileSystem.AccessControl" Version="5.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+</Project>

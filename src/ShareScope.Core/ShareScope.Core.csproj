@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ShareScope.Core</RootNamespace>
+    <AssemblyName>ShareScope.Core</AssemblyName>
+    <Description>SMB share audit engine: target lists, ACL summaries, risk rules, exports, and CLI.</Description>
+  </PropertyGroup>
+</Project>

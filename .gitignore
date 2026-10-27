@@ -1,0 +1,30 @@
+## Build
+bin/
+obj/
+out/
+publish/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## IDE
+.vs/
+.idea/
+*.rsuser
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Packages and publish output
+*.nupkg
+*.zip
+ShareScope.exe
+
+## Logs
+*.log
+*.tlog
+*.binlog

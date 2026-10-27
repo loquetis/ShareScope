@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ShareScope</RootNamespace>
+    <AssemblyName>ShareScope</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Description>Read-only SMB share and permission auditor.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShareScope.Core\ShareScope.Core.csproj" />
+    <ProjectReference Include="..\ShareScope.Windows\ShareScope.Windows.csproj" />
+  </ItemGroup>
+</Project>
